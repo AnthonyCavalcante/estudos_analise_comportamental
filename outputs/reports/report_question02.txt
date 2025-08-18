@@ -27,12 +27,6 @@ Média de PointsRedeemed é 1716.12
  Os Ids abaixo do 1º Quartil de seus Tier são:
 [1005 1011 1020 1026 1036 1046 1059] 
 
-
- Dados gerados para questão 03
-
- Os Ids abaixo do 1º Quartil de seus Tier são:
-[1005 1011 1020 1026 1036 1046 1059] 
-
 A média de AvgTransactionValue dos IDs encontrado é 112.38
 A média geral de AvgTransactionValue do tier Silver é de 210.93
 A média geral de AvgTransactionValue do tier gold é de 230.34
@@ -40,3 +34,23 @@ A média geral de AvgTransactionValue do tier gold é de 230.34
 A média de NumTransactionsLast90Days dos IDs encontrado é 15.57
 A média geral de NumTransactionsLast90Days do tier Silver é de 23.13
 A média geral de NumTransactionsLast90Days do tier gold é de 17.54
+----------------
+Resultado Questão 04
+
+O 10º percentil da média de resgate é 0.11185875913827766
+
+ O 75º percentil da média de transação é 358.7175
+
+Os IDS que estão com baixa média de resgate são:
+| CustomerID   | AvgRedeemed   |
+|:-------------|:--------------|
+| 1005         | 0             |
+| 1020         | 0.0539965     |
+| 1026         | 0.036488      |
+| 1036         | 0.0169865     |
+| 1046         | 0.0331159     |
+| 1059         | 0.032245      |
+
+Os IDS que estão com baixa média de resgate e alta média de transação são:
+| CustomerID   | AvgRedeemed   |
+|--------------|---------------|
