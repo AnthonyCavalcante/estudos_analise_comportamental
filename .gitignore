@@ -1,0 +1,20 @@
+# Ambientes Virtuais
+.env
+.venv
+env/
+venv/
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos de dados (geralmente não versionamos dados grandes)
+data/
+
+# Arquivos de IDE e sistema
+.vscode/
+.idea/
+*.DS_Store
+
+# Pasta de outputs
+output/

@@ -1,0 +1,9 @@
+README.md
+setup.py
+analise_escopo.egg-info/PKG-INFO
+analise_escopo.egg-info/SOURCES.txt
+analise_escopo.egg-info/dependency_links.txt
+analise_escopo.egg-info/requires.txt
+analise_escopo.egg-info/top_level.txt
+src/__init__.py
+src/data_processing.py

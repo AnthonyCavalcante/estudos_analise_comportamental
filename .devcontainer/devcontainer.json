@@ -1,0 +1,30 @@
+{
+  // Diz ao VS Code para usar o docker-compose
+  "dockerComposeFile": "../docker-compose.yml",
+
+  // Diz ao VS Code para se conectar ao serviço 'app' dentro do compose file
+  "service": "app",
+
+  // Diz ao VS Code onde está a pasta do projeto dentro do container
+  "workspaceFolder": "/workspaces",
+
+  // Suas personalizações continuam as mesmas
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+
+  // O postCreateCommand também continua o mesmo
+  "postCreateCommand": "pip install -e ."
+}

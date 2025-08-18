@@ -1,0 +1,42 @@
+| Tier   | QtdUsers   | TotalPointsEarned   | PointsRedeemed   |
+|:-------|:-----------|:--------------------|:-----------------|
+| Bronze | 1          | 3808.42             | 450.49           |
+| Gold   | 2          | 8496.24             | 3155.52          |
+| Silver | 1          | 4247.1              | 1542.34          |
+
+
+Total de usuários por TIer:
+| Tier   | QtdUsers   |
+|:-------|:-----------|
+| Bronze | 1          |
+| Gold   | 2          |
+| Silver | 1          |
+
+
+Média de TotalPointsEarned é 5517.25
+
+
+Média de PointsRedeemed é 1716.12
+
+
+-----------------------------------------
+
+
+ Dados gerados para questão 03
+
+ Os Ids abaixo do 1º Quartil de seus Tier são:
+[1005 1011 1020 1026 1036 1046 1059] 
+
+
+ Dados gerados para questão 03
+
+ Os Ids abaixo do 1º Quartil de seus Tier são:
+[1005 1011 1020 1026 1036 1046 1059] 
+
+A média de AvgTransactionValue dos IDs encontrado é 112.38
+A média geral de AvgTransactionValue do tier Silver é de 210.93
+A média geral de AvgTransactionValue do tier gold é de 230.34
+
+A média de NumTransactionsLast90Days dos IDs encontrado é 15.57
+A média geral de NumTransactionsLast90Days do tier Silver é de 23.13
+A média geral de NumTransactionsLast90Days do tier gold é de 17.54

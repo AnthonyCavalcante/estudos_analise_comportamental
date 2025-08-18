@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile 
+    
+    container_name: desafio-semanal-4
+    
+    volumes:
+      - .:/workspaces:cached
+      
+    command: sleep infinity
