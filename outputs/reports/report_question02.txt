@@ -54,3 +54,38 @@ Os IDS que estão com baixa média de resgate são:
 Os IDS que estão com baixa média de resgate e alta média de transação são:
 | CustomerID   | AvgRedeemed   |
 |--------------|---------------|
+
+
+
+----------------------
+ Questão 05
+
+Taxa de classificação de feedbacks para usuários churnados
+| CustomerScoreClass   | ChurnedLoyaltyProgram   | proportion   |
+|:---------------------|:------------------------|:-------------|
+| negativo             | True                    | 0.03         |
+| neutro               | True                    | 0.09         |
+| positivo             | True                    | 0.15         |
+
+Clientes com feedback negativo mas com taxa de transaçã acima da média
+| CustomerID   | Tier     | CustomerScoreClass   | NumTransactionsLast90Days   |
+|:-------------|:---------|:---------------------|:----------------------------|
+| 1001         | Gold     | negativo             | 35                          |
+| 1003         | Silver   | negativo             | 26                          |
+| 1004         | Bronze   | negativo             | 39                          |
+| 1010         | Bronze   | negativo             | 35                          |
+| 1011         | Gold     | negativo             | 31                          |
+| 1012         | Bronze   | negativo             | 30                          |
+| 1020         | Silver   | negativo             | 37                          |
+| 1022         | Platinum | negativo             | 26                          |
+| 1025         | Platinum | negativo             | 34                          |
+| 1029         | Bronze   | negativo             | 30                          |
+| 1031         | Platinum | negativo             | 24                          |
+| 1034         | Bronze   | negativo             | 31                          |
+| 1042         | Platinum | negativo             | 30                          |
+| 1043         | Bronze   | negativo             | 33                          |
+| 1048         | Silver   | negativo             | 34                          |
+| 1051         | Bronze   | negativo             | 36                          |
+| 1055         | Bronze   | negativo             | 26                          |
+| 1057         | Platinum | negativo             | 26                          |
+| 1060         | Bronze   | negativo             | 28                          |
